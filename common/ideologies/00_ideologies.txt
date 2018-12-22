@@ -136,6 +136,9 @@ ideologies = {
 
 			monarchogamerism = {
 			}
+
+			aggamerism = {
+			}
 		}
 		
 		dynamic_faction_names = {
