@@ -232,20 +232,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Constantin Ion Parhon"
+	name = "Cucked Leo Petriu"
 	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
-	picture = "Portrait_Romania_Constantin_Parhon.dds"
+	picture = "LeoPetriuHOI4.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = popularism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Armand Calinescu"
+	name = "Assimilated Leo Petriu"
 	desc = "POLITICS_ARMAND_CALINESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+	picture = "LeoPetriuHOI4.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -254,22 +254,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Octavian Goga"
+	name = "Gamer Leo Petriu"
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "Portrait_Romania_Octavian_Goga.dds"
+	picture = "LeoPetriuHOI4.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = gamerism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Ion Antonescu"
+	name = "Gamer Leo Petriu"
 	desc = "POLITICS_ION_ANTONESCU_DESC"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	picture = "LeoPetriuHOI4.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = gamerism
 	traits = {
 		#
 	}
