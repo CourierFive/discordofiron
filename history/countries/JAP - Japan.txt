@@ -359,6 +359,17 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Siegepilled Ethan Coffin"
+		picture = "SiegepilledEthanCoffinHOI4.dds"
+	traits = { trickster career_officer infantry_officer brilliant_strategist }
+	skill = 5
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
 	name = "Yasuji Okamura"
 		picture = "Portrait_Japan_Yasuji_Okamura.dds"
 	traits = { trait_reckless }
