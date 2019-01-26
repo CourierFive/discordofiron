@@ -241,7 +241,7 @@ add_to_faction = GER
 
 
 add_ideas = {
-	sour_loser
+	sore_loser
 	general_staff
 	limited_exports
 	limited_conscription
@@ -719,7 +719,7 @@ create_equipment_variant = {
 }
 # Heavy Cruisers #
 create_equipment_variant = {
-	name = "Deutschland Class"
+	name = "Gameria Class"
 	type = heavy_cruiser_1
 	parent_version = 0
 	upgrades = {
@@ -783,7 +783,7 @@ create_equipment_variant = {
 	}
 
 	create_equipment_variant = {
-		name = "He 112"
+		name = "Hell 112"
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 1
@@ -804,7 +804,7 @@ create_equipment_variant = {
 	}
 	# Heavy Cruisers #
 	#create_equipment_variant = {
-	#	name = "Deutschland Class"
+	#	name = "Gamerist Class"
 	#	type = heavy_cruiser_1
 	#	parent_version = 0
 	#	upgrades = {
