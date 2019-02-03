@@ -1,0 +1,10 @@
+ITA_spazio_vitales = {
+	
+	allowed = {
+		original_tag = ITA
+	}
+
+	visible = {
+		has_completed_focus = ITA_form_the_spazio_vitales 
+	}
+}

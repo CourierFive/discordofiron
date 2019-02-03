@@ -1,0 +1,580 @@
+ITA_spazio_vitales = {
+	ITA_spazio_nord_afrika = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+			controls_state = 557
+			controls_state = 699
+			controls_state = 178
+			controls_state = 462
+			controls_state = 461
+			controls_state = 290
+			controls_state = 514
+			controls_state = 513
+			controls_state = 459
+			controls_state = 460
+			controls_state = 665
+			controls_state = 458
+			controls_state = 448
+			controls_state = 661
+			controls_state = 273
+			controls_state = 515
+			controls_state = 662
+			controls_state = 449
+			controls_state = 663
+			controls_state = 450
+			controls_state = 451
+			controls_state = 452
+			controls_state = 552
+			controls_state = 447
+			controls_state = 446
+			controls_state = 456
+			controls_state = 457
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = LBA
+				}
+				hidden_effect = {
+					LBA = {
+						set_state_controller = 557
+						set_state_controller = 699
+						set_state_controller = 178
+						set_state_controller = 462
+						set_state_controller = 461
+						set_state_controller = 290
+						set_state_controller = 514
+						set_state_controller = 513
+						set_state_controller = 459
+						set_state_controller = 460
+						set_state_controller = 665
+						set_state_controller = 458
+						set_state_controller = 448
+						set_state_controller = 661
+						set_state_controller = 273
+						set_state_controller = 515
+						set_state_controller = 662
+						set_state_controller = 449
+						set_state_controller = 663
+						set_state_controller = 450
+						set_state_controller = 451
+						set_state_controller = 452
+						set_state_controller = 552
+						set_state_controller = 447
+						set_state_controller = 446
+						set_state_controller = 456
+						set_state_controller = 457
+					}
+				}
+				LBA = {
+					start_civil_war = { ideology = fascism size = 1 }
+				}
+				random_country = {
+					limit= {
+						original_tag = LBA
+						has_government = fascism
+					}
+					transfer_state = 557
+					transfer_state = 699
+					transfer_state = 178
+					transfer_state = 462
+					transfer_state = 461
+					transfer_state = 290
+					transfer_state = 514
+					transfer_state = 513
+					transfer_state = 459
+					transfer_state = 460
+					transfer_state = 665
+					transfer_state = 458
+					transfer_state = 448
+					transfer_state = 661
+					transfer_state = 273
+					transfer_state = 515
+					transfer_state = 662
+					transfer_state = 449
+					transfer_state = 663
+					transfer_state = 450
+					transfer_state = 451
+					transfer_state = 452
+					transfer_state = 552
+					transfer_state = 447
+					transfer_state = 446
+					transfer_state = 456
+					transfer_state = 457
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					}
+					set_cosmetic_tag = NOR_reichskommissariat
+					create_country_leader = {
+						name = "Ryan Skiba"
+						desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+						}
+					}
+				}
+			}
+			else = {
+				LBA = {
+					transfer_state = 557
+					transfer_state = 699
+					transfer_state = 178
+					transfer_state = 462
+					transfer_state = 461
+					transfer_state = 290
+					transfer_state = 514
+					transfer_state = 513
+					transfer_state = 459
+					transfer_state = 460
+					transfer_state = 665
+					transfer_state = 458
+					transfer_state = 448
+					transfer_state = 661
+					transfer_state = 273
+					transfer_state = 515
+					transfer_state = 662
+					transfer_state = 449
+					transfer_state = 663
+					transfer_state = 450
+					transfer_state = 451
+					transfer_state = 452
+					transfer_state = 552
+					transfer_state = 447
+					transfer_state = 446
+					transfer_state = 456
+					transfer_state = 457
+					set_cosmetic_tag = NOR_reichskommissariat
+					create_country_leader = {
+						name = "Ryan Skiba"
+						desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+						}
+					}
+				}
+				set_autonomy = { target = LBA autonomy_state = autonomy_integrated_puppet }
+			}
+		}
+	}
+
+	ITA_spazio_est_afrika = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+			controls_state = 551
+			controls_state = 550
+			controls_state = 549
+			controls_state = 271
+			controls_state = 268
+			controls_state = 269
+			controls_state = 559
+			controls_state = 547
+			controls_state = 548
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = ETH
+				}
+				hidden_effect = {
+					ETH = {
+						set_state_controller = 551
+						set_state_controller = 550
+						set_state_controller = 549
+						set_state_controller = 271
+						set_state_controller = 268
+						set_state_controller = 269
+						set_state_controller = 559
+						set_state_controller = 547
+						set_state_controller = 548
+					}
+				}
+				ETH = {
+					start_civil_war = { ideology = fascism size = 1 }
+				}
+				random_country = {
+					limit= {
+						original_tag = ETH
+						has_government = fascism
+					}
+					transfer_state = 551
+					transfer_state = 550
+					transfer_state = 549
+					transfer_state = 271
+					transfer_state = 268
+					transfer_state = 269
+					transfer_state = 559
+					transfer_state = 547
+					transfer_state = 548
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					}
+					
+					set_cosmetic_tag = HOL_reichskommissariat
+					create_country_leader = {
+						name = "Owen Skiba"
+						desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
+						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+						}
+					}
+				}
+			}
+			else = {
+				ETH = {
+					transfer_state = 551
+					transfer_state = 550
+					transfer_state = 549
+					transfer_state = 271
+					transfer_state = 268
+					transfer_state = 269
+					transfer_state = 559
+					transfer_state = 547
+					transfer_state = 548
+					set_cosmetic_tag = HOL_reichskommissariat
+					create_country_leader = {
+						name = "Owen Skiba"
+						desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
+						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+						}
+					}
+				}
+				set_autonomy = { target = ETH autonomy_state = autonomy_integrated_puppet }
+			}
+		}
+	}
+
+	ITA_spazio_west_afrika = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+			controls_state = 272
+			controls_state = 701
+			controls_state = 296
+			controls_state = 556
+			controls_state = 700
+			controls_state = 298
+			controls_state = 272
+			controls_state = 558
+			controls_state = 660
+			controls_state = 539
+			controls_state = 297
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = LIB
+				}
+				hidden_effect = {
+					LIB = {
+						set_state_controller = 272
+						set_state_controller = 701
+						set_state_controller = 296
+						set_state_controller = 556
+						set_state_controller = 700
+						set_state_controller = 298
+						set_state_controller = 272
+						set_state_controller = 558
+						set_state_controller = 660
+						set_state_controller = 539
+						set_state_controller = 297
+					}
+				}
+				LIB = {
+					start_civil_war = { ideology = fascism size = 1 }
+				}
+				random_country = {
+					limit= {
+						original_tag = LIB
+						has_government = fascism
+					}
+					transfer_state = 272
+					transfer_state = 701
+					transfer_state = 296
+					transfer_state = 556
+					transfer_state = 700
+					transfer_state = 298
+					transfer_state = 272
+					transfer_state = 558
+					transfer_state = 660
+					transfer_state = 539
+					transfer_state = 297
+					ITA = {
+						puppet = PREV
+						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					}
+					set_cosmetic_tag = BEL_reichskommissariat
+					create_country_leader = {
+						name = "Collin Skiba"
+						desc = "POLITICS_JOSEF_GROHE_DESC"
+						picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+						}
+					}
+					hidden_effect = {
+						272 = { add_core_of = PREV }
+					}
+				}
+			}
+			else = {
+				LIB = {
+					transfer_state = 272
+					transfer_state = 701
+					transfer_state = 296
+					transfer_state = 556
+					transfer_state = 700
+					transfer_state = 298
+					transfer_state = 272
+					transfer_state = 558
+					transfer_state = 660
+					transfer_state = 539
+					transfer_state = 297
+					set_cosmetic_tag = BEL_reichskommissariat
+					create_country_leader = {
+						name = "Collin Skiba"
+						desc = "POLITICS_JOSEF_GROHE_DESC"
+						picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+						expire = "1965.1.1"
+						ideology = nazism
+						traits = {
+						}
+					}
+				}
+				set_autonomy = { target = LIB autonomy_state = autonomy_integrated_puppet }
+			}
+		}
+	}
+
+	ITA_spazio_sud_afrika = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+			controls_state = 719
+			controls_state = 681
+			controls_state = 541
+			controls_state = 542
+			controls_state = 275
+			controls_state = 540
+			controls_state = 545
+			controls_state = 544
+			controls_state = 543
+			controls_state = 295
+			controls_state = 538
+			controls_state = 718
+			controls_state = 546
+			
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+		}
+
+		complete_effect = {
+			release = SAF
+			SAF = {
+				set_state_controller = 719
+				set_state_controller = 681
+				set_state_controller = 541
+				set_state_controller = 542
+				set_state_controller = 275
+				set_state_controller = 540
+				set_state_controller = 545
+				set_state_controller = 544
+				set_state_controller = 543
+				set_state_controller = 295
+				set_state_controller = 538
+				set_state_controller = 718
+				set_state_controller = 546
+			
+				ITA = {
+					puppet = PREV
+					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+				}
+				
+				set_cosmetic_tag = BLR_reichskommissariat
+				create_country_leader = {
+					name = "Skiba Haircut Jr."
+					desc = "POLITICS_HINRICH_LOHSE_DESC"
+					picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+					expire = "1965.1.1"
+					ideology = nazism
+					traits = {
+					}
+				}
+				hidden_effect = {
+					719 = { add_core_of = PREV }
+					681 = { add_core_of = PREV }
+					541 = { add_core_of = PREV }
+					542 = { add_core_of = PREV }
+					275 = { add_core_of = PREV }
+					540 = { add_core_of = PREV }
+				}
+			}
+		}
+	}
+
+	ITA_spazio_arabia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+			controls_state = 453
+			controls_state = 454
+			controls_state = 553
+			controls_state = 677
+			controls_state = 554
+			controls_state = 455
+			controls_state = 680
+			controls_state = 676
+			controls_state = 675
+			controls_state = 291
+			controls_state = 656
+			controls_state = 292
+			controls_state = 679
+			controls_state = 678
+			controls_state = 658
+			controls_state = 293
+			controls_state = 659
+			controls_state = 294
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = { has_capitulated = yes }
+			}
+		}
+
+		visible = {
+			has_completed_focus = ITA_form_the_spazio_vitales
+			has_government = fascism
+		}
+
+		complete_effect = {
+			release = SAU
+			SAU = {
+				set_state_controller = 453
+				set_state_controller = 454
+				set_state_controller = 553
+				set_state_controller = 677
+				set_state_controller = 554
+				set_state_controller = 455
+				set_state_controller = 680
+				set_state_controller = 676
+				set_state_controller = 675
+				set_state_controller = 291
+				set_state_controller = 656
+				set_state_controller = 292
+				set_state_controller = 679
+				set_state_controller = 678
+				set_state_controller = 658
+				set_state_controller = 293
+				set_state_controller = 659
+				set_state_controller = 294
+				ITA = {
+					puppet = PREV
+					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+				}
+				set_cosmetic_tag = UKR_reichskommissariat
+				create_country_leader = {
+					name = "Quetin Burns"
+					desc = "POLITICS_HINRICH_LOHSE_DESC"
+					picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
+					expire = "1965.1.1"
+					ideology = nazism
+					traits = {
+					}
+				}
+			}
+		}
+	}
+}
