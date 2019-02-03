@@ -1,3 +1,4 @@
+#Category only allowed for ITA
 ITA_spazio_vitales = {
 	ITA_spazio_nord_afrika = {
 
