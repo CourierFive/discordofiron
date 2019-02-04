@@ -1826,12 +1826,12 @@ focus_tree = {
 	focus = {
 		id = ITA_form_the_spazio_vitales
 		icon = GFX_focus_ger_reichskommisariats
-		prerequisite = { focus = ITA_pact_of_steel focus = }
+		prerequisite = { focus = ITA_pact_of_steel focus = ITA_german_rd_treaty }
 		available = {
 			has_government = fascism
 		}
-		x = -2
-		y = -1
+		x = 0
+		y = 2
 		relative_position_id = ITA_german_rd_treaty
 		cost = 10
 		ai_will_do = {
