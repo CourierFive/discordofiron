@@ -1832,7 +1832,7 @@ focus_tree = {
 		}
 		x = -2
 		y = -1
-		relative_position_id = ITA_pact_of_steel
+		relative_position_id = ITA_german_rd_treaty
 		cost = 10
 		ai_will_do = {
 			factor = 1
