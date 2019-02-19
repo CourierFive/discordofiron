@@ -239,6 +239,8 @@
  GER_sweden_friend:0 "Befriend Sweden"
  GER_sweden_friend_desc:0 "The Scandinavian countries are like dominoes; they stand and fall together. With Norway and Denmark in our sphere, Sweden will surely follow."
  GER_improve_national_spirit:0 "Improve National Spirit"
+ GER_catholic_fundementalism:0 "Catholic Fundementalism"
+ GER_catholic_fundementalism_desc:0 "We should honor our parents and encourage extreme interperetation of Catholic views to help increase our efficiency and motivate our men with the possibility of something more"
  GER_improve_national_spirit_desc:0 "With the capital cities of the victors of the Great War in our hands we can finally cast off the shadow of our defeat. A new age is dawning for Germany!"
  GER_improve_national_spirit_tooltip:0 "We, or our Faction members, must control London and Paris and the states they reside in."
  needs_approval:0 "§R[This.GetName] must approve of the agreement for bonuses to take effect.§!\n"

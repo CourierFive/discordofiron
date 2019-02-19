@@ -4893,8 +4893,8 @@ focus_tree = {
 		id = GER_catholic_fundementalism
 		icon = GFX_focus_generic_japanese_imperial_glory
 		prerequisite = { focus = GER_improve_national_spirit }
-		x = 5
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = GER_improve_national_spirit
 
 		cost = 5
