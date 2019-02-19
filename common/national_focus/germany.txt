@@ -4888,6 +4888,60 @@ focus_tree = {
 			add_ideas = triumphant_will
 		}
 	}
+	
+	focus = {
+		id = GER_catholic_fundementalism
+		icon = GFX_focus_generic_japanese_imperial_glory
+		prerequisite = { focus = GER_improve_national_spirit }
+		x = 5
+		y = 0
+		relative_position_id = GER_improve_national_spirit
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_war = yes 
+			}
+			modifier = {
+				factor = 10
+				surrender_progress > 0.9
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			hidden_effect = {
+				set_rule = {
+					can_use_kamikaze_pilots = yes
+				}
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+			if = { 
+				limit = {
+					has_dlc = "Waking the Tiger"
+				}
+				custom_effect_tooltip = cost_reduced_last_stand 
+			}
+		}
+	}
 
 	############################################
 	############## BALKAN BRANCH ###############
